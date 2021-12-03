@@ -1,0 +1,14 @@
+GET http://localhost:5000/players
+
+###
+
+GET http://localhost:5000/players/12
+
+###
+
+POST http://localhost:5000/players
+Content-Type: application/json
+
+{
+    "name": "Von Miller I"
+}
